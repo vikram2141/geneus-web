@@ -1,0 +1,17 @@
+body {
+    background-color: white;
+  }
+.box{
+    width: 35vw;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.log_in{
+  background: none;
+  border: none;
+  margin-left: 2px;
+}
+.log_in:hover{
+  background: none;
+}
+
