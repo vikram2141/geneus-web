@@ -1,0 +1,56 @@
+/* Main container box */
+.calculator-container { 
+  padding: 8px; /* Reduce padding */
+  max-width: 600px;
+  margin: 10px auto;
+  background-color: yellow;
+  border: 4px solid black; /* Slightly reduce border width */
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 8px; /* Reduce margin-bottom */
+  max-height: 90vh; /* Ensure container doesn't exceed viewport height */
+  overflow-y: auto; /* Enable scrolling if content overflows */
+}
+
+/* Heading styles */
+.calculator-container h2 {
+  color: green;
+  margin-bottom: 10px; /* Further reduce margin-bottom */
+  font-size: 18px; /* Further reduce font size */
+}
+
+/* Table styles */
+.calculator-container table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 6px; /* Further reduce margin-bottom */
+}
+
+/* Table header and data cell styles */
+.calculator-container th,
+.calculator-container td {
+  padding: 2px; /* Further reduce padding */
+  border: 2px solid black; /* Thinner border */
+  text-align: center;
+  font-size: 11px; /* Further reduce font size */
+}
+
+/* Table header background */
+.calculator-container th {
+  background-color: #aed581;
+  color: #1b5e20;
+  font-size: 12px; /* Further reduce font size for header */
+}
+
+/* Table data cell background */
+.calculator-container td {
+  background-color: #f1f8e9;
+  color: #33691e;
+}
+
+/* Reduce the height of select dropdown */
+select {
+  font-size: 11px;
+  padding: 2px;
+  max-height: 24px; /* Reduce dropdown height */
+}
