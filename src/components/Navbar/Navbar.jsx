@@ -137,45 +137,43 @@ function NavbarComponent({ onSearch }) {
             </Navbar>
 
             <div className="about_pages">
-                <ul>
-                    <li>
-                        <Link to="/">Home</Link>
-                    </li>
-                    <li>
-                        <Link to="/courses">Courses</Link>
-                    </li>
-                    <li className="dropdown">
-                        <Link
-                            to="#"
-                            className="dropdown-toggle"
-                            data-bs-toggle="dropdown"
-                        >
-                            Services
-                        </Link>
-                        <ul className="dropdown-menu">
-                            <li>
-                                <Link to="/course" className="dropdown-item">
-                                    Course
-                                </Link>
-                            </li>
-                            <li>
-                                <Link
-                                    to="/nutrifit"
-                                    className="dropdown-item"
-                                >
-                                    NutriFit
-                                </Link>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <Link to="/nutritional">Nutritional</Link>
-                    </li>
-                    <li>
-                        <Link to="/contact">Contact Us</Link>
-                    </li>
-                </ul>
-            </div>
+    <ul>
+        <li>
+            <Link to="/">Home</Link>
+        </li>
+        <li>
+            <Link to="/courses">Courses</Link>
+        </li>
+        <li className="dropdown">
+            <Link
+                to="#"
+                className="dropdown-toggle"
+                data-bs-toggle="dropdown"
+            >
+                Services
+            </Link>
+            <ul className="dropdown-menu">
+                <li>
+                    <Link to="/courses" className="dropdown-item">
+                        Courses
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/nutrifit" className="dropdown-item">
+                        NutriFit
+                    </Link>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <Link to="/nutritional">Nutritional</Link>
+        </li>
+        <li>
+            <Link to="/contact">Contact Us</Link>
+        </li>
+    </ul>
+</div>
+
         </>
     );
 }

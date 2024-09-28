@@ -16,7 +16,8 @@ import { addUserDetails, userInfo } from "./redux/slices/userDetails";
 import NutritionalAndCalorieCalculator from "./components/Nutritional/NutritionalAndCalorieCalculator";
 import Services from './components/Services/Services';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-
+import Courses from "./components/Courses/Courses";  
+import NutriFit from "./components/Nutrifit/Nutrifit"; 
 import { backendUrl } from "./config";
 import Learning from "./components/Learning/Learning";
 axios.defaults.withCredentials = true;
@@ -92,6 +93,8 @@ const App = () => {
                 <Route path="/cart" element={<Cart />} />
                 <Route path="/learning" element={<Learning />} />
                 <Route path="/nutritional" element={<NutritionalAndCalorieCalculator />} />
+                <Route path="/courses" element={<Courses />} />
+                <Route path="/nutrifit" element={<NutriFit />} />
             </Routes>
             <Footer />
         </Router>
